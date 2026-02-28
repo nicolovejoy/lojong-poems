@@ -91,10 +91,11 @@ latent_register: [1-2 sentences. What second meaning could emerge from this pair
 human pattern is latent in the story's language that the slogan's core tension could
 surface? If none, say none.]
 
-candidate_passages: [3-6 verbatim sentences or phrases from the story, one per line,
+candidate_passages: [5-10 verbatim sentences or phrases from the story, one per line,
 chosen for imagistic quality, concrete specificity, and double-duty potential. Prefer
 sentences with specific nouns, quantities, place names, or physical processes. Skip
-sentences that could appear in a policy brief without alteration. Omit if score is none.]
+sentences that could appear in a policy brief without alteration. Extract generously —
+the assembler will select from these. Omit if score is none.]
 
 risk: [1-2 sentences. What could go wrong with this pairing? Is the fit too forced? Too
 literal? Does the latent register feel imposed rather than discovered? Omit if score is
