@@ -1,6 +1,7 @@
 import { unified } from "unified";
 import remarkParse from "remark-parse";
 import remarkGfm from "remark-gfm";
+import remarkBreaks from "remark-breaks";
 import remarkRehype from "remark-rehype";
 import rehypeReact from "rehype-react";
 import { createElement, Fragment } from "react";
@@ -11,6 +12,7 @@ export async function renderPoem(markdown: string): Promise<ReactElement> {
   const result = await unified()
     .use(remarkParse)
     .use(remarkGfm)
+    .use(remarkBreaks)
     .use(remarkRehype)
     .use(rehypeReact, {
       Fragment,
