@@ -19,6 +19,7 @@ Lojong Found Poetry — a found-poetry generator that pairs Buddhist Lojong slog
 - `src/` — Pipeline modules
 - `prompts/` — Prompt templates for LLM calls
 - `config.toml` — API keys and settings (not committed; see .gitignore)
+- `web/` — Next.js app (App Router, Tailwind v4) for amianai.com
 
 ## Key Concepts
 

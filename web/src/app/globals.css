@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-sans);
+  --font-serif: var(--font-serif);
+}
+
+/* Poem typography */
+.poem p {
+  margin-bottom: 1em;
+}
+
+.poem p:has(+ p) {
+  margin-bottom: 1.5em;
+}
+
+/* Intervention: strikethrough word + replacement */
+.poem-intervention del {
+  text-decoration: line-through;
+  text-decoration-color: theme(--color-stone-400);
+  color: theme(--color-stone-400);
+}
