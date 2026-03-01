@@ -7,9 +7,12 @@ export default function Header() {
         <Link href="/" className="text-lg font-medium tracking-tight text-stone-900">
           am i an ai
         </Link>
-        <nav className="text-sm text-stone-500">
+        <nav className="text-sm text-stone-500 space-x-4">
           <Link href="/" className="hover:text-stone-900 transition-colors">
             poems
+          </Link>
+          <Link href="/about" className="hover:text-stone-900 transition-colors">
+            about
           </Link>
         </nav>
       </div>
