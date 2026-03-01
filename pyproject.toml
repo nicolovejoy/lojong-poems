@@ -1,0 +1,13 @@
+[project]
+name = "lojong-poems"
+version = "0.1.0"
+description = "Found poetry pipeline: Lojong slogans × journalistic prose"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=0.28",
+    "rich>=13",
+    "httpx>=0.27",
+]
+
+[project.scripts]
+lojong = "src.cli:main"
