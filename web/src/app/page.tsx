@@ -6,9 +6,9 @@ export default function Home() {
 
   return (
     <div className="max-w-2xl mx-auto px-6 py-12">
-      <h1 className="font-serif text-3xl mb-2">Lojong Found Poetry</h1>
+      <h1 className="font-serif text-3xl mb-2">am i an ai</h1>
       <p className="text-stone-500 mb-10">
-        Poems composed from news stories, guided by Buddhist mind-training
+        Found poetry from news stories, guided by Buddhist mind-training
         slogans.
       </p>
 

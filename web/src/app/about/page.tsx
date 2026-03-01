@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "About",
-  description: "What is am i an ai?",
+  description: "Found poetry from news stories, guided by Buddhist mind-training slogans.",
 };
 
 export default function AboutPage() {
@@ -19,7 +19,7 @@ export default function AboutPage() {
         </p>
 
         <p>
-          When you read a poem, we&rsquo;ll ask you a simple question:{" "}
+          Soon, when you read a poem, we&rsquo;ll ask you a simple question:{" "}
           <em>was this written by an AI?</em>
         </p>
 

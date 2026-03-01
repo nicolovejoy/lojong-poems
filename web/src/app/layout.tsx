@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     default: "am i an ai",
     template: "%s — am i an ai",
   },
-  description: "Found poetry from news stories and Buddhist Lojong slogans",
+  description: "Found poetry from news stories, guided by Buddhist mind-training slogans",
 };
 
 export default function RootLayout({
